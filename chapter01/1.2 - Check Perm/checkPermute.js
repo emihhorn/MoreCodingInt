@@ -1,3 +1,10 @@
+var checkPermute = function (stringOne, stringTwo) {
+  if (stringOne.length !== stringTwo.length) {
+    return false;
+  }
+}
+
+
 var checkPermute = function(stringOne, stringTwo) {
   // if different lengths, return false
   if (stringOne.length !== stringTwo.length) {
